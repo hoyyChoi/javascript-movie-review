@@ -647,7 +647,4 @@ class MainController {
   }
 }
 const main = new MainController();
-const init = async () => {
-  await main.render();
-};
-init();
+main.render();
